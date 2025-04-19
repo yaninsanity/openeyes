@@ -54,17 +54,18 @@ python3 main.py
 
 #### Sliders (Trackbars)
 
-| Slider    | Description                                           |
-|-----------|-------------------------------------------------------|
-| **EARΔ**  | Eye Aspect Ratio baseline offset (lower bound)        |
-| **MARΔ**  | Mouth Aspect Ratio baseline offset (upper bound)      |
-| **PERC%** | Drowsiness windowed‑proportion threshold (0–1)        |
-| **Yawσ\***| Dynamic yaw threshold multiplier                      |
-| **Pitσ\***| Dynamic pitch threshold multiplier                    |
-| **DrowsyS** | Seconds of continuous eye‑closure → drowsiness     |
-| **YawTime** | Seconds of sustained head turn → alert              |
-| **NodTime** | Seconds between down/up nod to count as a “nod”     |
-| **BRRwin**  | Window length for blink‑rate (BRR) calculation (s)  |
+| Slider           | Description                                              |
+|------------------|----------------------------------------------------------|
+| **EAR_thresh**     | Eye Aspect Ratio threshold offset (lower bound)         |
+| **MAR_thresh**     | Mouth Aspect Ratio threshold offset (upper bound)       |
+| **PERC_thresh**    | Windowed‑proportion threshold for drowsiness (0–1)      |
+| **Yaw_mult**       | Dynamic yaw threshold multiplier                        |
+| **Pitch_mult**     | Dynamic pitch threshold multiplier                      |
+| **Drowsy_sec**     | Seconds of continuous eye‑closure → drowsiness          |
+| **Yaw_duration**   | Seconds of sustained head turn → alert                  |
+| **Nod_duration**   | Seconds between down/up nod → counts as a “nod”         |
+| **BRR_window**     | Window length for blink‑rate calculation (seconds)      |
+
 
 #### Keyboard Shortcuts
 
